@@ -1,0 +1,26 @@
+{
+    "name": "orbit-db",
+    "libraryName": "OrbitDB",
+    "data": {
+        "contributors": [
+            {
+                "name": "Willem Wyndham",
+                "url":"willemneal.github.io"
+            }
+        ],
+        "dependencies": {},
+        "typeScriptVersion": "2.1",
+        "libraryName": "OrbitDB",
+        "typingsPackageName": "orbit-db",
+        "globals": [
+            "orbit-db"
+        ],
+        "declaredModules": [
+            "orbit-db/."
+        ],
+        "files": [
+            "index.d.ts"
+        ],
+        "hasPackageJson": false
+    }
+}
