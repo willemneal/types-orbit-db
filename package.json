@@ -3,8 +3,14 @@
   "version": "0.19.8",
   "description": "The type definition for OrbitDB package",
   "types": "index.d.ts",
-  "keywords": ["ipfs","orbit-db", "types"],
+  "keywords": [
+    "ipfs",
+    "orbit-db",
+    "types"
+  ],
   "author": "Willem Wyndham",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "@types/ipfs": "git+https://github.com/survirtual/types-ipfs.git"
+  }
 }
