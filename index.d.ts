@@ -8,7 +8,7 @@ export = OrbitDB;
 declare class OrbitDB {
     id: string;
     _ipfs: ipfs;
-    key: string;
+    key: any;
     keystore: any;
 
     constructor(ipfs:ipfs, directory?: string, options?:any);
