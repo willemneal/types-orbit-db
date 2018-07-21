@@ -6,6 +6,8 @@ export = OrbitDB;
 
 
 declare class OrbitDB {
+    id: string;
+
     constructor(ipfs:ipfs, directory?: string, options?:any);
 
     counter(...args: any[]): void;
